@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive&display=swap');
+
+
 html,
 body {
   background-color: #f8fafc;
@@ -33,4 +36,15 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: pink;
+  margin-bottom: 1rem;
+  font-family: 'Edu NSW ACT Cursive', cursive;
+}
+
+.customFile {
+  background-color: pink;
 }

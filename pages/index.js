@@ -1,6 +1,9 @@
+
+
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+
 
 export default function Home() {
   return (
@@ -12,9 +15,15 @@ export default function Home() {
 
       <main>
         <Header title="Shell Story - Treasures Untold" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <div className="file-upload">
+          Upload a photo of your seashell...
+          <form action="/action_page.php">
+            <label id="customButton" for="fileInput">Add your shell! </label>
+            <input type="file" id="fileInput" accept="image/*" class="customFile"></input>
+            <input type="submit"></input>
+          </form>
+        </div>
+
       </main>
 
       <Footer />
