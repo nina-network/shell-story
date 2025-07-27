@@ -6,12 +6,12 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Shell Story</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Shell Story - Treasures Untold" />
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
